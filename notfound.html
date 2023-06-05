@@ -6,15 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Photosen</title>
     <link rel="stylesheet" href="./assets/styles/reset.css">
-    <link rel="stylesheet" href="./assets/styles/home/style.css">
+    <link rel="stylesheet" href="./assets/styles/notfound/style.css">
 </head>
 <body>
     <header>
         <a class="header__titulo">Photosen</a>
         <ul class="header__lista">
-            <li class="ativo header__lista__item "><a href="index.html">HOME</a></li>
+            <li class="header__lista__item "><a href="index.html">HOME</a></li>
             <li class="header__lista__item" id="galeria">
-                <a href="notfound.html">GALLERY</a>
+                <a href="#">GALLERY</a>
                 <div class="dropdown">
                     <a href="">Nature</a>
                     <a href="">Portrait</a>
@@ -28,7 +28,7 @@
             </li>
             <li class="header__lista__item"><a href="services.html">SERVICES</a></li>
             <li class="header__lista__item"><a href="about.html">ABOUT</a></li>
-            <li class="header__lista__item"><a href="notfound.html">CONTACT</a></li>
+            <li class="header__lista__item"><a href="#">CONTACT</a></li>
         </ul>
         <div class="header__icons">
             <a href="">
@@ -46,78 +46,14 @@
         </div>
     </header>
     <main>
-        <div class="main__imgs">
-            <div class="imgs">
-                <img class="imgs__foto" src="./assets/imgs/home/img_1.jpg.webp" alt="">
-                <span class="main__imgs__span">
-                    <p class="main__imgs__texto">Nature</p>
-                    <a href="notfound.html" class="imgs__foto__button">MORE PHOTOS</a>
-                </span>
-            </div>
-            <div class="imgs">
-                <img class="imgs__foto" src="./assets/imgs/home/img_2.jpg.webp" alt="">
-                <span class="main__imgs__span">
-                    <p class="main__imgs__texto">Portrait</p>
-                    <a href="notfound.html" class="imgs__foto__button">MORE PHOTOS</a>
-                </span>
-            </div>
-            <div class="imgs">
-                <img class="imgs__foto" src="./assets/imgs/home/img_3.jpg.webp" alt="">
-                <span class="main__imgs__span">
-                    <p class="main__imgs__texto">People</p>
-                    <a href="notfound.html" class="imgs__foto__button">MORE PHOTOS</a>
-                </span>
-            </div>
+        <div class="main__textos"> 
+            <h2>Ooops... Página não encontrada :(</h2>
+            <p>Clique aqui para retornar a página <a href="/index.html">HOME</a></p>
         </div>
-        <div class="main__imgs">
-            <div class="imgs">
-                <img class="imgs__foto" src="./assets/imgs/home/img_4.jpg.webp" alt="">
-                <span class="main__imgs__span">
-                    <p class="main__imgs__texto">Architecture</p>
-                    <a href="notfound.html" class="imgs__foto__button">MORE PHOTOS</a>
-                </span>
-            </div>
-            <div class="imgs">
-                <img class="imgs__foto" src="./assets/imgs/home/img_5.jpg.webp" alt="">
-                <span class="main__imgs__span">
-                    <p class="main__imgs__texto">Animals</p>
-                    <a href="notfound.html" class="imgs__foto__button">MORE PHOTOS</a>
-                </span>
-            </div>
-            <div class="imgs">
-                <img class="imgs__foto" src="./assets/imgs/home/img_6.jpg.webp" alt="">
-                <span class="main__imgs__span">
-                    <p class="main__imgs__texto">Sports</p>
-                    <a href="notfound.html" class="imgs__foto__button">MORE PHOTOS</a>
-                </span>
-            </div>
-        </div>
-        <div class="main__imgs">
-            <div class="imgs">
-                <img class="imgs__foto" src="./assets/imgs/home/img_7.jpg.webp" alt="">
-                <span class="main__imgs__span">
-                    <p class="main__imgs__texto">Travel</p>
-                    <a href="notfound.html" class="imgs__foto__button">MORE PHOTOS</a>
-                </span>
-            </div>
-            <div class="imgs">
-                <img class="imgs__foto" src="./assets/imgs/home/img_8.jpg.webp" alt="">
-                <span class="main__imgs__span">
-                    <p class="main__imgs__texto">People</p>
-                    <a href="notfound.html" class="imgs__foto__button">MORE PHOTOS</a>
-                </span>
-            </div>
-            <div class="imgs">
-                <img class="imgs__foto" src="./assets/imgs/home/img_9.jpg.webp" alt="">
-                <span class="main__imgs__span">
-                    <p class="main__imgs__texto">Architecture</p>
-                    <a href="notfound.html" class="imgs__foto__button">MORE PHOTOS</a>
-                </span>
-            </div>
+        <div id="catImageContainer">
+            <p id="loadingMessage">Carregando...</p>
         </div>
     </main>
-    <footer>
-        <p>Copyright ©2023 All rights reserved | Feito com &#128151; por Miguel Sena :)</p>
-    </footer>
-</body>
-</html>
+    <script src="./assets/scripts/index.js"></script>
+    </body>
+    </html>
